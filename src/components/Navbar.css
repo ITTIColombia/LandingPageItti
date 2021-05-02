@@ -1,0 +1,26 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+}
+.navItems{
+    display: flex;
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.navItems-text{
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.navItems-text a{
+    text-decoration: none;
+    color: #3B373A;
+}
+.navItems-text a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.navLogo{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

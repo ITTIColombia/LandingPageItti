@@ -1,0 +1,55 @@
+.RegalosLanding{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    margin-right: 11rem;
+    margin-left: 10rem;
+}
+
+.regalos-text{
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.regalos-text h3{
+    font-family: "Playfair Display";
+    color: #3B373A;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.regalos-text span{
+    font-style: italic;
+}
+
+.regalos-text p{
+    font-family: "Montserrat";
+    color: #3B373A;
+    margin-top: 2rem;
+    margin-right: 5.2rem;
+}
+
+.regalos-boton{
+    background-color: #BF522A;
+    width: fit-content;
+    margin-top: 2rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.regalos-boton span{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing:1px;
+}
+.regalos-boton a{
+    color: white;
+}
+
+.regalos-boton a:hover{
+    text-decoration: none;
+    color: #3B373A;
+}

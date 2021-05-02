@@ -1,0 +1,119 @@
+.Contacto{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.form-container{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.contacto-form{
+    width: 40vw;
+}
+
+.contacto-form-primera{
+    display: flex;
+}
+
+.contacto-form p{
+    font-family: "Montserrat";
+    color: #3B373A;
+    margin-top: 2rem;
+}
+
+.contacto-form input{
+    border: 0;
+    border-bottom: 1px solid #3B373A;
+    width: 18vw;
+    margin-right: 4vw;
+}
+
+.contacto-form select{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #3B373A;
+}
+
+.form-control{
+    font-family: "Montserrat";
+    color: #3B373A;
+}
+
+.contacto-form textarea{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #3B373A;
+}
+
+input:focus,
+select:focus, .form-control:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important
+}
+
+.contacto-form input:-webkit-autofill,
+.contacto-form input:-webkit-autofill:hover, 
+.contacto-form input:-webkit-autofill:focus, 
+.contacto-form input:-webkit-autofill:active
+{
+    -webkit-text-fill-color: #3B373A !important;
+    -webkit-text-fill-font-family: "Montserrat" !important;
+    font-family: "Montserrat"  !important;
+    background-color: white;
+}
+
+.contacto-form input:-moz-autofill,
+.contacto-form input:-moz-autofill:hover, 
+.contacto-form input:-moz-autofill:focus, 
+.contacto-form input:-moz-autofill:active
+{
+    -moz-text-fill-color: #3B373A !important;
+    -moz-text-fill-font-family: "Montserrat" !important;
+}
+
+.contacto-txt{
+    padding-right: 4rem;
+    padding-left: 3rem;
+}
+
+.botonForm{
+    background-color: #BF522A;
+    border: 0;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.botonForm:hover{
+    color: #3B373A;
+}
+
+.contacto-txt h3{
+    font-family: "Playfair Display";
+    color: #3B373A;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.contacto-txt span{
+    font-style: italic;
+}
+
+.contacto-txt p{
+    font-family: "Montserrat";
+    color: #3B373A;
+    padding-top: 1rem;
+}

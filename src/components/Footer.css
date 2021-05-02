@@ -1,0 +1,57 @@
+.Footer{
+    background-color: #3B373A;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.footer-logo{
+    margin-left: 2rem;
+}
+
+.footer-copy{
+    display: flex;
+    align-items: center;
+}
+
+.footer-copy p{
+    font-family: "Montserrat";
+    color: white;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+
+.footer-info{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.footer-info-item{
+    margin-right: 7vw;
+}
+
+.footer-info-item p{
+    font-family: "Montserrat";
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.footer-info-item a{
+    font-family: "Montserrat";
+    color: white;
+    font-size: 0.8rem;
+    text-decoration-line: underline;
+}
+.footer-info-item a:hover{
+    font-family: "Montserrat";
+    color: lightgrey;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
