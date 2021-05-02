@@ -10,6 +10,10 @@ import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 
 function App() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <div className="App">
       <Router>

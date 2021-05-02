@@ -43,7 +43,7 @@ class Contacto extends Component {
 
     render(){
         return (
-        <div className="Contacto">
+        <div className="Contacto" id="contacto">
             <div className="form-container">
                 <form className="contacto-form" action="/mail.php">
                     <div className="contacto-form-primera">

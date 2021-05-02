@@ -8,7 +8,7 @@ import NavProductos from './NavProductos';
 
 function ProductosLanding() {
     return (
-        <div className="ProductosLanding">
+        <div className="ProductosLanding" id="productosLanding">
             <Router>
                 <div className="productos-tit">
                     <h3>Productos</h3>

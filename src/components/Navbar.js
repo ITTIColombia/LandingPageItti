@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css"; 
-import { NavLink } from 'react-router-dom';
+import { Link } from "react-scroll";
 import logo from "../recursos/logoNav.svg";
 
 
@@ -9,31 +9,31 @@ function Navbar() {
         <div className="Navbar">
             <div className="navItems izquierda">
                 <li key="1" className="navItems-text">
-                    <NavLink to="/regalosLanding" activeStyle={{color:"#000000"}} exact={true} activeClassName="active">
+                    <Link to="regalosLanding" offset={-70} activeClass="active">
                         <span>REGALOS</span>
-                    </NavLink>
+                    </Link>
                 </li>
                 <li key="2" className="navItems-text">
-                    <NavLink to="/productosLanding" activeStyle={{color:"#000000"}} activeClassName="active">
+                    <Link to="productosLanding" offset={-30} activeClass="active">
                         <span>PRODUCTOS</span>
-                    </NavLink>
+                    </Link>
                 </li>
             </div>
             <div className="navLogo">
-                <NavLink to="/" >
+                <Link to="/" >
                     <img className="navLogo-img" src={logo} alt="Lago ITTI" />
-                </NavLink>
+                </Link>
             </div>
             <div className="navItems izquierda">
                 <li key="3" className="navItems-text">
-                    <NavLink to="/marcasLanding" activeStyle={{color:"#000000"}} activeClassName="active">
+                    <Link to="marcasLanding" offset={-70} activeClass="active">
                         <span>MARCAS</span>
-                    </NavLink>
+                    </Link>
                 </li>
                 <li key="4" className="navItems-text">
-                    <NavLink to="/contactoLanding" activeStyle={{color:"#000000"}} activeClassName="active">
+                    <Link to="contacto" offset={-70} activeClass="active">
                         <span>CONTACTO</span>
-                    </NavLink>
+                    </Link>
                 </li>
             </div>
         </div>

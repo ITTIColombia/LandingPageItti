@@ -9,7 +9,7 @@ import marca5 from "../recursos/marca5.svg";
 
 function Marcas() {
     return (
-        <div className="MarcasLanding">
+        <div className="MarcasLanding" id="marcasLanding">
             <div className="marcasLanding-tit">
                 <h3>Marcas Populares</h3>
             </div>
