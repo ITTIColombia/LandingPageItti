@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import foto1 from "../recursos/Joyeria/foto1.png";
 import foto2 from "../recursos/Joyeria/foto2.svg";
 import foto3 from "../recursos/Joyeria/foto3.png";
