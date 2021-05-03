@@ -8,11 +8,22 @@ import ProductosLanding from './components/ProductosLanding';
 import Marcas from './components/MarcasLanding';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
+import ReactGA from "react-ga";
+import {useEffect} from "react";
+
 
 function App() {
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }
+
+  useEffect(() => {
+    return () => {
+      ReactGA.initialize('G-PGGYQF7YVY');
+      ReactGA.pageview('/home');
+    };
+  }, []);
+
 
   return (
     <div className="App">
