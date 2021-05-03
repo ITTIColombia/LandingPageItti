@@ -3,8 +3,6 @@ import "./Contacto.css";
 import logo from "../recursos/palabraLogo.svg";
 import emailjs from 'emailjs-com';
 
-const API_PATH = 'http://localhost:3000/src/components/mail.php';
-
 class Contacto extends Component {
     constructor(props) {
         super(props);
