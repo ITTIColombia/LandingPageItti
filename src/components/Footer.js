@@ -20,7 +20,7 @@ function Footer() {
                 </div>
                 <div className="footer-info-item">
                     <p>SÍGUENOS</p>
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/somositti/" target="_blank" rel="noreferrer">Instagram</a>
                 </div>
             </div>
             

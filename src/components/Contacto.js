@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import "./Contacto.css";
 import logo from "../recursos/palabraLogo.svg";
 import emailjs from 'emailjs-com';
+import { Alert } from 'react-bootstrap';
 
 function Contacto(props){
 
@@ -27,10 +28,20 @@ function Contacto(props){
         emailjs.send('service_ruy2cos','template_l12eqwy', params, 'user_1AVCQW2D8N6FMw6LVfyvu')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
+                return(
+                    <div>
+                    <Alert key="1" variant="success">
+                        El mensaje se envío correctamente. 
+                        ¡Pronto nos pondremos en contacto contigo!
+                    </Alert>
+                    </div>
+                    );
             }, (err) => {
                 console.log('FAILED...', err);
             });
-    }
+
+        
+    };
 
 
     return (
