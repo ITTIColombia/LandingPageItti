@@ -31,6 +31,8 @@
     border-bottom: 1px solid #3B373A;
     width: 18vw;
     margin-right: 4vw;
+    font-family: "Montserrat";
+    color: #3B373A;
 }
 
 .contacto-form select{
