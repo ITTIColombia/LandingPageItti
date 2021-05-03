@@ -19,8 +19,8 @@ function App() {
 
   useEffect(() => {
     return () => {
-      ReactGA.initialize('G-PGGYQF7YVY');
-      ReactGA.pageview('/home');
+      ReactGA.initialize('UA-196167690-1');
+      ReactGA.pageview('/');
     };
   }, []);
 
