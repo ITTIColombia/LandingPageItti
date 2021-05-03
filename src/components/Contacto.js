@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./Contacto.css"; 
 import logo from "../recursos/palabraLogo.svg";
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 
 const API_PATH = 'http://localhost:3000/src/components/mail.php';
 
@@ -26,18 +26,14 @@ class Contacto extends Component {
 
     handleFormSubmit = e => {
         e.preventDefault();
-        axios({
-          method: 'post',
-          url: `${API_PATH}`,
-          headers: { 'content-type': 'application/json' },
-          data: this.state.mensaje
-        })
-          .then(result => {
-            this.setState({
-              mailSent: result.data.sent
-            })
-          })
-          .catch(error => this.setState({ ...this.state.mensaje, [error]: error.message }));
+        const {mensaje, nombre, correo, tipo} = this.state.mensaje;
+        const params = {message: mensaje, name: nombre, email: correo, userType: tipo};
+        emailjs.send('service_ruy2cos','template_l12eqwy', params, 'user_1AVCQW2D8N6FMw6LVfyvu')
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            }, (err) => {
+                console.log('FAILED...', err);
+            });
     };
 
 
