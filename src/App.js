@@ -27,16 +27,18 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        <Banner/>
-        <Filosofia/>
-        <RegalosLanding/>
-        <ProductosLanding/>
-        <Marcas/>
-        <Contacto/>
-        <Footer/>
-      </Router>
+      
+        <Router>
+          <Navbar/>
+          <Banner/>
+          <Filosofia/>
+          <RegalosLanding/>
+          <ProductosLanding/>
+          <Marcas/>
+          <Contacto/>
+          <Footer/>
+        </Router>
+      
     </div>
   );
 }

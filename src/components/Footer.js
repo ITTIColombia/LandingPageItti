@@ -10,7 +10,7 @@ function Footer() {
                 <img className="img" src={logo} alt="ITTI" />
                 <div className="footer-copy">
                     <img className="copy" src={copy} alt="copyright" />
-                    <p>2021. ITTI. All Rights Reserved.</p>
+                    <p>2021 ITTI. All Rights Reserved.</p>
                 </div>
             </div>
             <div className="footer-info">

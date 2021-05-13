@@ -9,13 +9,15 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
+    "postcss": "^7.0.35",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.2",
+    "react-toast-notification": "^1.1.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

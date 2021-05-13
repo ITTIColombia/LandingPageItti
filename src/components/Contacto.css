@@ -119,3 +119,12 @@ button:focus {
     color: #3B373A;
     padding-top: 1rem;
 }
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+}
