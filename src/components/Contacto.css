@@ -128,3 +128,36 @@ button:focus {
     margin-bottom: 5rem;
 
 }
+
+@media (max-width: 700px){
+    .video iframe{
+        width: 80vw;
+        height: 48vw;
+    }
+    .Contacto{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80vw;
+        padding: 0;
+    }
+    .contacto-txt{
+        padding: 0;
+        text-align:center ;
+    }
+    .contacto-txt h3{
+        font-size: 1.4rem;
+    }
+    .contacto-txt img{
+        width: 14vw;
+    }
+    .form-container{
+        margin: 0;
+    }
+    .contacto-form{
+        width: 75vw;
+    }
+    .contacto-form input{
+        width: 35vw;
+    }
+
+}

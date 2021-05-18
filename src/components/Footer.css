@@ -55,3 +55,27 @@
     font-size: 0.8rem;
     text-decoration: none;
 }
+
+@media (max-width: 450px){
+    .footer-logo{
+        margin-left: 6vw;
+        margin-right:6vw;
+    }
+    .copy{
+        width: 3vw;
+    }
+    .img{
+        width: 20vw;
+    }
+    .footer-copy p{
+        font-size: 0.5rem;
+    }
+    .footer-info p{
+        font-size: 0.6rem;
+
+    }
+    .footer-info a{
+        font-size: 0.6rem;
+    }
+
+}

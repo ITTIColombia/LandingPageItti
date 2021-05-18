@@ -54,3 +54,26 @@
     text-decoration: none;
     color: #3B373A;
 }
+
+@media (max-width: 1000px){
+    .RegalosLanding{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .regalos-text{
+        padding: 0;
+        margin-bottom: 10vw;
+        width: 70vw;
+    }
+    .regalos-text h3{
+        font-size: 1.5rem;
+    }
+    .regalos-text p{
+        margin-right: 6vw;
+    }
+    .regalos-img img{
+        width: 80vw;
+    }
+
+}

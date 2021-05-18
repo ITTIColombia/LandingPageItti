@@ -45,3 +45,16 @@
 .filosofia-content-item-det{
     margin-top: 1.2rem;
 }
+
+@media (max-width: 1000px){
+    .filosofia-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .filosofia-content-item{
+        padding: 0;
+        width: 70vw;
+        margin-bottom: 5vw;
+    }
+}

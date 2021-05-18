@@ -75,3 +75,26 @@
     padding-right: 5vw;
     padding-left: 5vw;
 }
+
+@media (max-width: 1000px) {
+    .Banner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .banner-izquierda{
+        position: relative;
+        float: none;
+        padding: 0;
+        width:  90vw;
+    }
+    .banner-derecha{
+        float: none;
+        margin: 0;
+    }
+    .banner-img{
+        width: 80vw;
+    }
+}
+
+  
