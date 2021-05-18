@@ -52,3 +52,10 @@
     width: 25vw;
     margin-bottom: 2rem;
 }
+
+@media (max-width: 450px){
+    .productos-bar a{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
