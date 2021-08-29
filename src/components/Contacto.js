@@ -6,6 +6,7 @@ import { Alert } from 'react-bootstrap';
 
 function Contacto(props){
 
+    
     const categories = ["Joyería", "Bisutería", "Accesorios", "Artesanías"]
 
     let [mensajeObj, setMensaje] = useState({
