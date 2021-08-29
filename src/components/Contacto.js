@@ -29,7 +29,7 @@ function Contacto(props){
 
     function handleInputChange(event) {
         const value = event.target.name === "presenciaDigital"? event.target.checked: event.target.value
-        if(event.target.name === "tipo" && value === "Usuario"){
+        if(event.target.name === "tipo" && value === "Emprendimiento"){
             setMensaje({
                 ...mensajeObj,
                 [event.target.name]: value,
@@ -51,8 +51,21 @@ function Contacto(props){
 
     function handleFormSubmit(e){
         e.preventDefault();
-        const {mensaje, nombre, correo, tipo} = mensajeObj;
-        const params = {message: mensaje, name: nombre, email: correo, userType: tipo};
+        //const {mensaje, nombre, correo, tipo} = mensajeObj;
+        //const params = {message: mensaje, name: nombre, email: correo, userType: tipo};
+
+        let params= null;
+
+        if(mensajeObj.tipo==="Emprendimiento"){
+            const {mensaje, nombre, correo, tipo, nombreMarca, tiempoMercado, rangoPrecios, ciudad, telefono, direccion, tipoMarca, presenciaDigital} = mensajeObj;
+            params = {message: mensaje, name: nombre, email: correo, userType: tipo, brandName: nombreMarca, marketTime: tiempoMercado, priceRange: rangoPrecios, city: ciudad, phone: telefono, address: direccion, category: tipoMarca, digital: presenciaDigital};
+            console.log(params);
+        }else{
+            const {mensaje, nombre, correo, tipo} = mensajeObj;
+            params = {message: mensaje, name: nombre, email: correo, userType: tipo, brandName: "N/A", marketTime: "N/A", priceRange: "N/A", city: "N/A", phone: "N/A", address: "N/A", category: "N/A", digital: "N/A"};
+            console.log(params);
+        }
+
         emailjs.send('service_ruy2cos','template_l12eqwy', params, 'user_1AVCQW2D8N6FMw6LVfyvu')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
@@ -115,12 +128,12 @@ function Contacto(props){
                             </div>
                             <div className="contacto-form-primera">
                                 <div>
-                                    <p>NUMERO DE CONTACTO</p>
+                                    <p>NÚMERO DE CONTACTO</p>
                                     <input type="number" id="inputText2" name="telefono" onChange={handleInputChange}/>
                                 </div>
                                 <div>
                                     <p>DIRECCIÓN</p>
-                                    <input type="number" id="inputText2" name="direccion" onChange={handleInputChange}/>
+                                    <input type="text" id="inputText2" name="direccion" onChange={handleInputChange}/>
                                 </div>
 
                             </div>
