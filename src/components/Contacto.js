@@ -5,6 +5,7 @@ import emailjs from 'emailjs-com';
 import { Alert } from 'react-bootstrap';
 
 function Contacto(props){
+    
 
     const categories = ["Joyería", "Bisutería", "Accesorios", "Artesanías"]
 
