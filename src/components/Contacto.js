@@ -8,7 +8,6 @@ function Contacto(props){
 
     const categories = ["Joyería", "Bisutería", "Accesorios", "Artesanías"]
 
-
     let [mensajeObj, setMensaje] = useState({
         nombre: '',
         correo: '',
