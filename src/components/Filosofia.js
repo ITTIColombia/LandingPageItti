@@ -10,7 +10,7 @@ function Filosofia() {
             <div className="filosofia-content">
                 <div className="filosofia-content-item">
                     <p className="filosofia-content-item-tit">Regalar</p>
-                    <p className="filosofia-content-item-det">Agilizamos la búsqueda de regalos originales y diferentes al encontrar productos que se ajusten a tus desos y necesidades</p>
+                    <p className="filosofia-content-item-det">Agilizamos la búsqueda de regalos originales y diferentes al encontrar productos que se ajusten a tus deseos y necesidades</p>
                 </div>
                 <div className="filosofia-content-item">
                     <p className="filosofia-content-item-tit">Descubrir</p>
